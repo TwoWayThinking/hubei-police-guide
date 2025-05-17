@@ -1,0 +1,99 @@
+<style>
+    body {
+      font-family: "Microsoft YaHei", sans-serif;
+      margin: 0;
+      padding: 2em;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #1a73e8;
+    }
+    .directory {
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      padding: 1em;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      margin-bottom: 2em;
+    }
+    
+.directory a {
+    display: block;
+    padding: 15px 25px;
+    margin-bottom: 8px;
+    background: white;
+    border: 2px solid #e9ecef;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.directory a:hover {
+    background: #f1f3f5;
+    border-color: #2a6496;
+    transform: translateX(10px);
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+}
+
+.directory a::before {
+    content: "";
+    color: #2a6496;
+    position: absolute;
+    left: -25px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.directory a:hover::before {
+    opacity: 1;
+}
+
+.directory h2 {
+    font-size: 24px;
+    color: #1a73e8;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #2a6496;
+    margin-bottom: 20px;
+}
+    .step {
+      background-color: #fff;
+      padding: 1em;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      margin-bottom: 2em;
+    }
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 1em;
+    }
+    .images img {
+      width: 360px;
+      border-radius: 6px;
+    }
+    .note {
+      background-color: #fff8e1;
+      padding: 0.8em;
+      margin-top: 1em;
+      border-left: 5px solid #ffc107;
+      font-size: 0.95em;
+    }
+    .faq {
+      background-color: #eef7ff;
+      padding: 1em;
+      margin-top: 3em;
+      border-left: 4px solid #1a73e8;
+    }
+    footer {
+      margin-top: 4em;
+      padding-top: 2em;
+      border-top: 1px solid #ccc;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
