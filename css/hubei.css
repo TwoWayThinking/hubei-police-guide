@@ -73,7 +73,9 @@
       margin-top: 1em;
     }
     .images img {
-      width: 360px;
+      width: 155px;
+      height:346px;
+      cursor:pointer;
       border-radius: 6px;
     }
     .note {
