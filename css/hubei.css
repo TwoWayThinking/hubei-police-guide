@@ -1,4 +1,16 @@
 <style>
+        /* 新增三端适配代码 */
+        @media (max-width: 480px) {
+            body { padding: 1em; }
+            nav.directory a { font-size: 14px; }
+            .images img { width: 100%; }
+        }
+
+        @media (min-width: 481px) and (max-width: 1024px) {
+            body { padding: 1.5em; }
+            nav.directory { max-width: 90%; }
+            .images { justify-content: center; }
+        }
     body {
       font-family: "Microsoft YaHei", sans-serif;
       margin: 0;
